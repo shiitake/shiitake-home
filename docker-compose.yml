@@ -1,0 +1,14 @@
+version: '3'
+services:
+    nginx:
+        image: nginx
+        network_mode: "host"
+        container_name: nginx
+        ports: 
+          - "80:80"
+          - "443:443"
+          - "9009:9009"
+        volumes:
+          - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+          - ./config/nginx/sites-enabled:/etc/nginx/conf.d:ro
+          - ./www/punq/index.html:/var/www/html/punq/index.html:ro
