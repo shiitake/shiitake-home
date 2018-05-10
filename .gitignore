@@ -6,3 +6,10 @@
 *.swo
 
 .secrets
+
+# Home Assistant stuff
+.HA_VERSION
+.uuid
+home-assistant.log
+home-assistant_v2*
+
