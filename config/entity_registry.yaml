@@ -1,0 +1,8 @@
+switch.wemo_light_switch_hallway:
+  name:
+  platform: wemo
+  unique_id: 221746K1300EFF
+media_player.whoawhatwaitnotthat:
+  name:
+  platform: cast
+  unique_id: a4ea505e-e1f6-8f35-2ca2-639560fe00dd
